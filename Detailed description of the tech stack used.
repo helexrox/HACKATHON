@@ -1,0 +1,38 @@
+1.⁠ ⁠Python
+Version: Python 3.12
+Description: A high-level programming language used for scripting and data processing.
+2.⁠ ⁠Libraries & Modules
+Data Simulation & Processing
+NumPy: import numpy as np
+Version: Not specified
+Description: A library for numerical computations, used here to simulate screen time and website visit data.
+Pandas: import pandas as pd
+Version: Not specified
+Description: A library for data manipulation and analysis, used to create and handle DataFrames.
+Machine Learning
+Scikit-Learn: from sklearn.ensemble import RandomForestClassifier
+Version: Not specified
+Description: A library for machine learning algorithms, used here for classification.
+Email Handling
+smtplib: import smtplib
+
+Version: Built-in module
+Description: A built-in Python module for sending emails via the Simple Mail Transfer Protocol (SMTP).
+email.mime.multipart: from email.mime.multipart import MIMEMultipart
+
+email.mime.text: from email.mime.text import MIMEText
+
+Version: Built-in module
+Description: Modules used for constructing email messages with MIME format.
+Environment Variables
+python-dotenv: from dotenv import load_dotenv, dotenv_values
+Version: Not specified
+Description: A library used to read and write environment variables from a .env file, managing sensitive information like email credentials.
+3.⁠ ⁠Tools & Services
+SMTP Server: smtp.gmail.com
+Port: 587
+Description: Gmail's SMTP server used for sending emails.
+4.⁠ ⁠Data File Format
+CSV: Data is saved and loaded in CSV format (.csv).
+5.⁠ ⁠IDE/Editor
+Not explicitly mentioned, but likely using an IDE or text editor like VSCode or PyCharm.
